@@ -10,7 +10,7 @@ Unlike conventional bridges, BCYX does not seek to move assets through a trusted
 
 The initial pilot focuses on a single use case:
 
-**Private BTC ↔ strkBTC swap coordination.**
+**Private BTC ↔ sBTC swap coordination on Stacks Network.**
 
 The objective is to validate that cross-chain swaps can be coordinated privately, verified publicly, and settled atomically without exposing the full execution graph.
 
@@ -106,9 +106,9 @@ Correspondent Chain Settlement
 
 # Initial Use Case
 
-## BTC ↔ strkBTC Private Swap
+## BTC ↔ sBTC Private Swap
 
-Alice wants to exchange BTC for strkBTC.
+Alice wants to exchange BTC for sBTC on Stacks Network.
 
 Instead of publicly exposing:
 
@@ -131,7 +131,7 @@ A proof is generated demonstrating:
 
 The verifier validates the proof.
 
-Settlement then completes on the corresponding chains.
+Settlement then completes across Bitcoin and Stacks.
 
 ---
 
@@ -213,7 +213,7 @@ This enables:
 
 The pilot is considered successful if it demonstrates:
 
-1. Private BTC ↔ strkBTC swap coordination.
+1. Private BTC ↔ sBTC swap coordination on Stacks Network.
 2. Commitment-based execution.
 3. Valid zero-knowledge proof generation.
 4. Verifier acceptance of settlement proofs.
@@ -247,7 +247,7 @@ The pilot is considered successful if it demonstrates:
 ## Phase 2
 
 * Proof generation
-* Starknet verifier
+* Stacks settlement verifier
 * Settlement synchronization
 
 ## Phase 3
